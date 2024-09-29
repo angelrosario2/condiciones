@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #005f73;
+}
+
+a {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #0a9396;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #007f80;
+}
+
+.desafio {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007f80;
+}
+
+input,
+select {
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  color: #007f80;
+  font-weight: bold;
+  text-align: center;
+}
+
+#resultado,
+#mensaje {
+  margin-top: 15px;
+  color: #d00000;
+}
+
+.borde-rojo {
+  border: 2px solid red;
+}
+
+#miImagen {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.borde-rojo {
+  border: 2px solid red;
+}
+
+#desafio2 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#desafio2 img {
+  max-width: 100px;
+}
+
+#resultado {
+  color: #007f80;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+#desafio3 select {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+#mensaje {
+  color: #d00000;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
